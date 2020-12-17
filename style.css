@@ -5,8 +5,8 @@ body{
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /* background-repeat-x: initial; */
+    /* background-repeat-y: initial; */
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -29,7 +29,10 @@ table{
 
 #principal{
     color: cornsilk;
-    background-color: slateblue;
+      background-image: url(imagens/blackmap.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
 }
 
 #titulo{
@@ -54,9 +57,10 @@ table{
     white-space: nowrap;
     box-sizing: border-box;
     cursor: pointer;
-    position: relative;
+    position: fixed;
     bottom: 0px;
     transition: bottom 0.1s linear;
+    
 }
 
 #cm{
