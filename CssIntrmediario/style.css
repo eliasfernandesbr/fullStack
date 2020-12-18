@@ -3,12 +3,22 @@
     width: 300px;
     height: 100px;
 }
+img{
+    float: left;
+}
 
-*{
+.pcDell{
+    width: 80px;
+}
+p{
+    display: inline;
+}
+
+/* *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-}
+} */
 
 #container img{
     max-width: 150px;
@@ -35,5 +45,32 @@ box-sizing: border-box;
     display: block;
     width: 80px;
     margin: auto;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.red{
+    background-color: rgb(255, 60, 0);
+    
+
+}
+
+.blue{
+    background-color: royalblue;
+
+}
+
+.static{
+ position: static;   
+}
+
+.relative{
+    position: relative;
+    
 }
     
